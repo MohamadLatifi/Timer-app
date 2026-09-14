@@ -1,0 +1,27 @@
+.first-timer {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(68, 68, 201);
+  color: white;
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.day {
+  background-color: black;
+}
+
+.hour {
+  background-color: black;
+}
+
+.minute {
+  background-color: black;
+}
+
+.second {
+  background-color: black;
+}
