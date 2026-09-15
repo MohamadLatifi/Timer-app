@@ -10,7 +10,17 @@
 
 <body>
   <div class="first-timer">
-    <div class="main">
+    <form>
+      h :
+      <input type="text" class="hour_input" id="hourInput" >
+      m :
+      <input type="text" class="minute_input" id="minuteInput" >
+      s :
+      <input type="text" class="second_input" id="secondInput" >
+      <input type="button" id="submit" style="background-color: orange;">
+    </form>
+    <br>
+    <div class="output">
       <!-- day :
       <span class="day" id="day">00</span> -->
       hour :
@@ -18,9 +28,9 @@
       minute :
       <span class="minute" id="minute">00</span>
       second :
-      <span class="second" id="second"></span>  
-    </div>  
-  <script defer src="/frontEnd/logic/script.js"></script>
+      <span class="second" id="second"> 00</span>
+    </div>
+    <script defer src="/frontEnd/logic/script.js"></script>
 </body>
 
 </html>
