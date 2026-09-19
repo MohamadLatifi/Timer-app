@@ -35,16 +35,16 @@ body {
 
 
 .first_timer {
-  border-radius: 5px;
+  border-radius: .3rem;
   margin: 1rem auto;
-  width: 300px;
-  height: 300px;
+  width: 19rem;
+  height: 20rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(16px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 0.01rem solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -55,15 +55,15 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 30px;
+  height: 2rem;
 }
 
 .input_form {
   background-color: #352752;
   border: black solid 2px;
   outline: none;
-  height: 25px;
-  text-align: center;
+  height: 1.5rem;
+  color: wheat;
 }
 
 
@@ -71,22 +71,44 @@ body {
   color: gold;
 }
 
+.inter_btn {
+  background-color: goldenrod;
+  padding: .1rem;
+  border-radius: .1;
+  outline: none;
+  border: black solid .1rem;
+}
+
+.inter_btn:hover {
+  transform: translateY(.1rem);
+  box-shadow: 0 .8rem 2rem rgba(212, 175, 55, 0.45);
+}
 
 
-.title_form:hover {
+.hide_input_form,
+.hide_inter_btn {
+  background-color: transparent;
+  border: solid transparent;
+  transition: all 1s;
+  color: transparent;
+}
+
+.hide_title_form {
   color: transparent;
   transition: all 1s;
 }
 
-.input_form:hover {
+
+
+
+.timer_name {
   background-color: transparent;
-  border: solid transparent;
-  transition: all 1s;
+  color: gold;
+  transition: all 3s;
 }
 
-
 .ring_div {
-  height: 75px;
+  height: 4.5rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -94,11 +116,11 @@ body {
 }
 
 .ring {
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   color: goldenrod;
-  border: solid 6px black;
+  border: solid .4rem black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +145,7 @@ body {
   color: goldenrod;
   width: 2rem;
   height: 1.5rem;
-  border: solid 1px gold;
+  border: solid 0.05rem gold;
   outline: none;
 }
 
@@ -133,8 +155,8 @@ body {
   border-color: gold;
   background: rgba(10, 5, 12, 0.85);
   box-shadow:
-    0 0 0 3px rgba(212, 175, 55, 0.14),
-    0 0 22px rgba(212, 175, 55, 0.3);
+    0 0 0 .2rem rgba(212, 175, 55, 0.14),
+    0 0 1.5rem rgba(212, 175, 55, 0.3);
 
 }
 
@@ -143,17 +165,17 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  height: 30px;
+  height: 2rem;
   margin: auto;
   gap: 1rem;
 }
 
 .submit,
 .restart {
-  width: 50px;
-  height: 25px;
-  border: solid black 1px;
-  border-radius: 5px;
+  width: 3rem;
+  height: 1.5rem;
+  border: solid black 0.05rem;
+  border-radius: .3rem;
 }
 
 .submit {
@@ -161,14 +183,14 @@ body {
 }
 
 .restart {
-  background-color: #1A0B1F;
+  background-color: #2D1433;
   color: goldenrod;
-  border: goldenrod solid 1px;
+  border: goldenrod solid 0.05rem;
 }
 
 .submit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 34px rgba(212, 175, 55, 0.45);
+  transform: translateY(-.1rem);
+  box-shadow: 0 .8rem 2rem rgba(212, 175, 55, 0.45);
 }
 
 .restart:hover {
